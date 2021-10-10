@@ -1,0 +1,207 @@
+.boxcontainer{
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+    height: 300px;
+    width: 500px;
+}
+.switchlite{
+    position: absolute;
+    height: 60%;
+    width: 80%;
+    top: 20%;
+    left: 10%;
+    margin: 20px auto;
+}
+.leftpart{
+    position: absolute;
+    height: 100%;
+    width: 15%;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+    background: darkturquoise;
+}
+.rightpart{
+    position: absolute;
+    height: 100%;
+    width: 15%;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    background: darkturquoise;
+    right: 0%
+}
+.screen{
+    position: absolute;
+    background: none;
+    width: 70%;
+    background: black;
+    left: 15%;
+    height: 100%;
+}
+.actualscreen{
+    position: absolute;
+    background: none;
+    width: 90%;
+    background: red;
+    left: 5%;
+    height: 90%;
+    top: 5%;
+}
+.joystickleft{
+    position: absolute;
+    border-radius: 50%;
+    background: darkgray;
+    height: 13%;
+    width: 40%;
+    top: 20%;
+    left: 33%;
+    border: solid 3px;
+}
+.flecha-container{
+    position: absolute;
+    height: 22%;
+    width: 70%;
+    background: none;
+    top: 45%;
+    left: 15%;
+}
+.flechatop{
+    position: absolute;
+    height: 30%;
+    width:  30%;
+    background: black;
+    border-radius: 50%;
+    left: 35%;
+    top: 0%;
+}
+.flechabottom {
+    position: absolute;
+    height: 30%;
+    width:  30%;
+    background: black;
+    border-radius: 50%;
+    left: 35%;
+    bottom: 0%;
+}
+.flechaleft{
+    position: absolute;
+    height: 30%;
+    width:  30%;
+    background: black;
+    border-radius: 50%;
+    left: 0%;
+    top: 35%;
+}
+.flecharight{
+    position: absolute;
+    height: 30%;
+    width:  30%;
+    background: black;
+    border-radius: 50%;
+    right: 0%;
+    top: 35%;
+}
+.cuadradoleft{
+    position: absolute;
+    bottom: 15%;
+    right: 13%;
+    height: 7%;
+    width: 23%;
+    background: black;
+}
+.volumenleft{
+     position: absolute;
+     height: 3%;
+     width: 30%;
+     top: 8%;
+     right: 5%;
+     background: black;
+     border-radius: 50px;
+}
+.boton-container{
+    position: absolute;
+    height: 22%;
+    width: 70%;
+    background: none;
+    top: 20%;
+    left: 15%;
+}
+.botontop{
+    position: absolute;
+    height: 30%;
+    width:  30%;
+    background: black;
+    border-radius: 50%;
+    left: 35%;
+    top: 0%;
+}
+.botonbottom {
+    position: absolute;
+    height: 30%;
+    width:  30%;
+    background: black;
+    border-radius: 50%;
+    left: 35%;
+    bottom: 0%;
+}
+.botonleft{
+    position: absolute;
+    height: 30%;
+    width:  30%;
+    background: black;
+    border-radius: 50%;
+    left: 0%;
+    top: 35%;
+}
+.botonright{
+    position: absolute;
+    height: 30%;
+    width:  30%;
+    background: black;
+    border-radius: 50%;
+    right: 0%;
+    top: 35%;
+}
+.joystickright{
+    position: absolute;
+    border-radius: 50%;
+    background: darkgray;
+    height: 13%;
+    width: 40%;
+    top: 55%;
+    left: 33%;
+    border: solid 3px;
+}
+.volumenright{
+    position: absolute;
+    height: 8%;
+    width: 25%;
+    top: 3%;
+    left: 8%;
+    background: none;
+}
+.vertical{
+    position: absolute;
+    height: 100%;
+    background: black;
+    width: 30%;
+    left: 32.5%;
+}
+.horizontal{
+    position: absolute;
+    width: 100%;
+    background: black;
+    height: 30%;
+    top: 32.5%;
+}
+.cuadradoright{
+    position: absolute;
+    border-radius: 50%;
+    background: black ;
+    height: 5%;
+    width: 15%;
+    bottom: 15%;
+    left: 10%;
+    border: solid 3px;
+}
